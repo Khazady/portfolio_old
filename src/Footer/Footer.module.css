@@ -1,0 +1,32 @@
+h3 {
+    margin: 0;
+}
+
+.footerBlock {
+    width: 75%;
+    height: 70%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.squares {
+    width: 50%;
+    height: 35%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.lightBlock {
+    width: 12%;
+    height: 100%;
+}
+
+.darkBlock {
+    width: 12%;
+    background-color: darkgrey;
+}

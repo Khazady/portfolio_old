@@ -1,0 +1,32 @@
+.skillsBlock {
+    border: 1px solid black;
+    width: 75%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleBlock {
+    width: 100%;
+    height: 25%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.skills {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
