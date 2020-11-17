@@ -7,7 +7,7 @@ import Works from "./Works/Works";
 import Remote from './Remote/Remote';
 import Contacts from "./Contacs/Contacts";
 import {Footer} from "./Footer/Footer";
-
+//убрать высоту со всех врапперов
 function App() {
     return (
       <div className="App">

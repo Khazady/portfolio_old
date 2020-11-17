@@ -15,8 +15,6 @@ function Works() {
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}/>
                   <Work title="Todolist"
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}/>
-                  <Work title="Portfolio"
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}/>
               </div>
           </div>
       </div>
