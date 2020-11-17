@@ -1,32 +1,26 @@
-h3 {
-    margin: 0;
+.footer {
+    background-color: #d4ffd3;
 }
 
-.footerBlock {
-    width: 75%;
-    height: 70%;
-    border: 1px solid;
-    display: flex;
+.footerContainer {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-.squares {
-    width: 50%;
-    height: 35%;
-    border: 1px solid;
+.title {
+    background-color: #eeeef5;
+}
+
+.socialIcons {
+    width: 250px;
+    background-color: #d6d6d6;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: stretch;
 }
 
-.lightBlock {
-    width: 12%;
-    height: 100%;
-}
-
-.darkBlock {
-    width: 12%;
-    background-color: darkgrey;
+.socialIcon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
 }

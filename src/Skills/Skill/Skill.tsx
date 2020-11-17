@@ -9,7 +9,7 @@ type SkillPropsTypes = {
 function Skill(props: SkillPropsTypes) {
     return (
       <div className={classes.skill}>
-          <div className={classes.icon}>icon</div>
+          <div className={classes.icon}/>
           <h3 className={classes.title}>{props.title}</h3>
           <span className={classes.description}>
               {props.description}

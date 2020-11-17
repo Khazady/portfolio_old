@@ -1,39 +1,10 @@
 .container {
-    min-height: 100vh;
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.header {
-    min-height: 10vh;
-}
-
-.pink {
-    background-color: #ffd4f0;
-}
-
-.yellow {
-    background-color: #b7b770;
-}
-
-.green {
-    background-color: #447a44;
-}
-
-.works {
-    min-height: 80vh;
-}
-.remote {
-    min-height: 20vh
-}
-
-.blue {
-    background-color: #498ba2;
-}
-
-.footer {
-    min-height: 30vh;
 }

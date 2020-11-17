@@ -1,16 +1,16 @@
 import React from 'react';
-import classes from "./Work.module.css";
+import classes from "./Project.module.css";
 
 type WorkPropsTypes = {
     title: string
     description: string
 }
 
-function Work(props: WorkPropsTypes) {
+function Project(props: WorkPropsTypes) {
     return (
-      <div className={classes.work}>
+      <div className={classes.project}>
           <div className={classes.image}>
-              <button className={classes.watchButton}>Смотреть</button>
+              <a className={classes.viewBtn}>Watch</a>
           </div>
           <div className={classes.title}>{props.title}</div>
           <span className={classes.description}>
@@ -20,4 +20,4 @@ function Work(props: WorkPropsTypes) {
     );
 }
 
-export default Work;
+export default Project;

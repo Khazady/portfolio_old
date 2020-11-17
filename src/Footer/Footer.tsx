@@ -3,19 +3,16 @@ import classes from "./Footer.module.css";
 import containerClass from "../common/styles/Container.module.css"
 
 export const Footer: React.FC = (props) => (
-  <div className={`${containerClass.container} ${containerClass.green} ${containerClass.footer}`}>
-    <footer className={classes.footerBlock}>
-      <h3>Mikhas Tyshkevich</h3>
-        <div className={classes.squares}>
-            <div className={classes.darkBlock}/>
-            <div className={classes.lightBlock}/>
-            <div className={classes.darkBlock}/>
-            <div className={classes.lightBlock}/>
-            <div className={classes.darkBlock}/>
-            <div className={classes.lightBlock}/>
-            <div className={classes.darkBlock}/>
+  <div className={classes.footer}>
+    <footer className={`${containerClass.container} ${classes.footerContainer}`}>
+      <h2>Mikhas Tyshkevich</h2>
+        <div className={classes.socialIcons}>
+            <div className={classes.socialIcon}/>
+            <div className={classes.socialIcon}/>
+            <div className={classes.socialIcon}/>
+            <div className={classes.socialIcon}/>
         </div>
-      <h3>© 2020 Все права защищены</h3>
+      <span className={classes.copyright}>© 2020 All rights reserved</span>
     </footer>
   </div>
 )
