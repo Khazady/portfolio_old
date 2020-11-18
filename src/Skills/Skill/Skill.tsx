@@ -8,7 +8,7 @@ type SkillPropsTypes = {
 }
 
 export const Skill: React.FC<SkillPropsTypes> = (props) => (
-      <div className={classes.skill}>
+      <div id='skills' className={classes.skill}>
           <div style={props.style} className={classes.icon}/>
           <div className={classes.skillInfo}>
               <h3 className={classes.title}>{props.title}</h3>

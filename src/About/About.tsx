@@ -6,7 +6,7 @@ import myPhoto from '../assets/images/myPhoto.jpg'
 function About() {
     const photo = {backgroundImage: `url(${myPhoto})`}
     return (
-      <div className={classes.aboutBlock}>
+      <div id='main' className={classes.aboutBlock}>
           <div className={`${containerClass.container} ${classes.aboutContainer}`}>
               <div className={classes.text}>
                   <span>Hello there!</span><br/>

@@ -5,7 +5,7 @@ import {Title} from "../common/components/Title/Title";
 
 function Contacts() {
     return (
-      <div className={classes.contactsBlock}>
+      <div id='contacts' className={classes.contactsBlock}>
           <div className={`${containerClass.container} ${classes.contactsContainer}`}>
               <Title text='Contacts'/>
               <form className={classes.contactForm}>

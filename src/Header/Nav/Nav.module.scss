@@ -1,5 +1,10 @@
 @import '../../common/styles/sass/variables';
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .nav {
     width: 300px;
     display: flex;

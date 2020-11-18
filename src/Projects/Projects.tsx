@@ -11,7 +11,7 @@ export function Projects() {
     const social = {backgroundImage: `url(${socnetImage})`}
     const todolist = {backgroundImage: `url(${todoImage})`}
     return (
-      <div className={classes.projectsBlock}>
+      <div id='projects' className={classes.projectsBlock}>
           <div className={`${containerClass.container} ${classes.projectsContainer}`}>
               <Title text="Projects"/>
               <div className={classes.projects}>
