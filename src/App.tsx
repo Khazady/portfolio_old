@@ -7,6 +7,7 @@ import {Projects} from "./Projects/Projects";
 import Hire from './Hire/Hire';
 import Contacts from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+
 //убрать высоту со всех врапперов
 function App() {
     return (

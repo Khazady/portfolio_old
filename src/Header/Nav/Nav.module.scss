@@ -1,0 +1,16 @@
+@import '../../common/styles/sass/variables';
+
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    text-decoration: none;
+    color: $bgColor;
+    font-family: $textFontFamily;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}

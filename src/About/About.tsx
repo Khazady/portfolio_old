@@ -1,17 +1,19 @@
 import React from 'react';
-import classes from "./About.module.css";
-import containerClass from "../common/styles/Container.module.css"
+import classes from './About.module.scss';
+import containerClass from '../common/styles/Container.module.css'
+import myPhoto from '../assets/images/myPhoto.jpg'
 
 function About() {
+    const photo = {backgroundImage: `url(${myPhoto})`}
     return (
-      <div className={classes.aboutMeBlock}>
-          <div className={containerClass.container}>
+      <div className={classes.aboutBlock}>
+          <div className={`${containerClass.container} ${classes.aboutContainer}`}>
               <div className={classes.text}>
                   <span>Hello there!</span><br/>
-                  <h1>I am Mikhas Tyshkevich</h1>
-                  <p>Frontend Developer</p>
+                  <p>I am Mikhail Kalatsey</p>
+                  <p>I am Frontend Developer</p>
               </div>
-              <div className={classes.photo}/>
+              <div style={photo} className={classes.photo}/>
           </div>
       </div>
     );

@@ -1,23 +1,23 @@
 import React from 'react';
-import classes from "./Project.module.css";
+import classes from "./Project.module.scss";
 
 type WorkPropsTypes = {
     title: string
     description: string
+    style: {backgroundImage: string}
 }
 
-function Project(props: WorkPropsTypes) {
-    return (
+export const Project: React.FC<WorkPropsTypes> = (props) => (
       <div className={classes.project}>
-          <div className={classes.image}>
-              <a className={classes.viewBtn}>Watch</a>
+          <div className={classes.image} style={props.style}>
+              <a href="#" className={classes.viewBtn}>Watch</a>
           </div>
-          <div className={classes.title}>{props.title}</div>
-          <span className={classes.description}>
+          <div className={classes.projectInfo}>
+              <h3 className={classes.projectTitle}>{props.title}</h3>
+              <span className={classes.description}>
               {props.description}
           </span>
+          </div>
+
       </div>
     );
-}
-
-export default Project;

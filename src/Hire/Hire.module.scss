@@ -1,0 +1,27 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.hireBlock {
+  background-color: $bgSecondColor;
+  padding: 50px 0;
+
+  .hireContainer {
+    flex-direction: column;
+    justify-content: center;
+
+    .hireBtn {
+      background-color: $primaryColor;
+      padding: 10px 20px;
+      color: $textColor;
+      text-decoration: none;
+      border-radius: 5px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+

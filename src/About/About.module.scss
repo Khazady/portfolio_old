@@ -1,0 +1,26 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.aboutBlock {
+  height: 100vh;
+  background-color: $bgColor;
+
+  .aboutContainer {
+    justify-content: space-around;
+
+    .text {
+      text-align: center;
+      width: 300px;
+      background-color: $bgSecondColor;
+      @include text ($textFontFamily, 16px, 1.2, 400, 1px)
+    }
+
+    .photo {
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 5px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
+
+.title {
+  @include text ($titleFontFamily, 36px, 1.2, 300, 5px);
+  text-transform: capitalize;
+  margin: 0 0 30px;
+  position: relative;
+
+  .title h2 {
+    margin: 0;
+  }
+
+  /* минимальный набор для псевдо - 1-ые 4 свойства
+лайфхак как выровнять псевдоэлемент трансформом */
+  &::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 1px;
+    background-color: $primaryColor;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}

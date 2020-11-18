@@ -1,0 +1,16 @@
+@import './variables';
+/* :null необязательный параметр */
+@mixin text($fontFamily, $fontSize, $lineHeight, $fontWeight: null, $letterSpacing: null) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+  color: $textColor;
+}
+
+@mixin bg($bgPos, $bgSize, $bgRep) {
+  background-position: $bgPos;
+  background-size: $bgSize;
+  background-repeat: $bgRep;
+}

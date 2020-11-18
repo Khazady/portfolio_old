@@ -1,0 +1,38 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins.scss';
+
+.skill {
+  width: 250px;
+  display: flex;
+  text-align: center;
+  margin: 25px;
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+  }
+  .skillInfo {
+    display: flex;
+    flex-direction: column;
+    @include text($textFontFamily, 14px, 1.2, 300, 1px);
+    border-radius: 30px;
+    transition: background-color 1s, color 1s;
+    &:hover {
+      background-color: $textColor;
+      color: $bgSecondColor;
+    }
+
+    .title {
+
+    }
+
+    .description {
+
+    }
+  }
+}
+
