@@ -18,7 +18,7 @@ export const Footer: React.FC = (props) => {
               <Title text='Mikhail Kalatsey'/>
               <div className={classes.socialIcons}>
                   <a style={phone} href="tel:+375333264127" className={classes.socialIcon}/>
-                  <a style={telegram} href="https:/t.me/khazady" target="_blank" className={classes.socialIcon}/>
+                  <a style={telegram} href="https:/t.me/khazady" className={classes.socialIcon}/>
                   <a style={email} href="mailto:seakingtourist@gmail.com" className={classes.socialIcon}/>
                   <a style={linkedin} href='https://www.linkedin.com/in/mkalatsey/?locale=en_US' className={classes.socialIcon}/>
               </div>

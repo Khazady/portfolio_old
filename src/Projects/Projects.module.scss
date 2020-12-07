@@ -18,6 +18,9 @@
 
       @media screen and (max-width: 1124px) {
         justify-content: center;
+        :nth-child(n) {
+          margin: 10px 0;
+        }
       }
     }
   }

@@ -15,7 +15,7 @@ function Skills() {
     const js = {backgroundImage: `url(${jsImage})`}
     const react = {backgroundImage: `url(${reactImage})`}
     return (
-      <div className={classes.skillsBlock}>
+      <div id='skills' className={classes.skillsBlock}>
           <div className={`${containerClass.container} ${classes.skillsContainer}`}>
               <Title text="Skills"/>
               <div className={classes.skills}>
