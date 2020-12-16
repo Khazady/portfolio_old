@@ -1,12 +1,14 @@
 @import '../common/styles/sass/variables';
 @import '../common/styles/sass/mixins';
 
-.aboutBlock {
+.block {
   padding: 50px 0;
   background-color: $bgColor;
 
-  .aboutContainer {
-    justify-content: space-around;
+  .container {
+    @include container();
+    @include flex(row, space-around, center, wrap);
+
 
     .text {
       text-align: center;
@@ -23,8 +25,7 @@
     .photo {
       width: 300px;
       height: 400px;
-      background-size: cover;
-      background-position: center;
+      @include bg(center, cover);
       border-radius: 5px;
     }
   }

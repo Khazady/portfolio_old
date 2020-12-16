@@ -2,10 +2,10 @@
 @import '../../styles/sass/mixins';
 
 .title {
-  @include text ($titleFontFamily, 36px, 1.2, 300, 5px);
-  text-transform: capitalize;
+  @include text($titleFontFamily, 36px, 1.2, 300, 5px, capitalize);
   margin: 0 0 30px;
   position: relative;
+  text-align: center;
 
   .title h2 {
     margin: 0;

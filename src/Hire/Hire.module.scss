@@ -1,24 +1,17 @@
 @import '../common/styles/sass/variables';
 @import '../common/styles/sass/mixins';
+@import '../common/components/Button/Button.module';
 
-.hireBlock {
+.block {
   background-color: $bgSecondColor;
   padding: 50px 0;
 
-  .hireContainer {
-    flex-direction: column;
-    justify-content: center;
+  .container {
+    @include container();
+    @include flex(column, center, center, wrap);
 
-    .hireBtn {
-      background-color: $primaryColor;
-      padding: 10px 20px;
-      color: $textColor;
-      text-decoration: none;
-      border-radius: 5px;
-
-      &:hover {
-        text-decoration: underline;
-      }
+    a {
+      @extend .btn;
     }
   }
 

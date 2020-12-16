@@ -1,5 +1,6 @@
 @import '../../common/styles/sass/variables';
 @import '../../common/styles/sass/mixins';
+@import '../../common/components/Button/Button.module';
 
 .project {
   width: 450px;
@@ -9,11 +10,8 @@
 
   .image {
     height: 300px;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include bg(center, cover);
+    @include flex(row, center, center);
     position: relative;
     /* затеняющий при наведении блок */
     &:hover::before {

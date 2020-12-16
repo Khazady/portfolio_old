@@ -1,20 +1,15 @@
-import React from 'react';
-import classes from "./Header.module.scss";
-import Nav from "./Nav/Nav";
-import containerClass from "../common/styles/Container.module.css"
+import React from 'react'
+import classes from './Header.module.scss'
+import {Nav} from './Nav/Nav'
 
 
-function Header() {
-    return (
-      <div className={containerClass.container}>
-          <header className={classes.header}>
-              <div className={classes.name}>
-                  <h2>Mikhail Kalatsey</h2>
-              </div>
-              <Nav/>
-          </header>
-      </div>
-    );
-}
-
-export default Header;
+export const Header: React.FC = () => (
+  <div className={classes.block}>
+      <header className={classes.header}>
+          <div className={classes.name}>
+              <h2>Mikhail Kalatsey</h2>
+          </div>
+          <Nav/>
+      </header>
+  </div>
+)

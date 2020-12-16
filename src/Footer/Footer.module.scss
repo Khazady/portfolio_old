@@ -2,18 +2,16 @@
 @import '../common/styles/sass/mixins';
 
 
-.footer {
+.block {
   background-color: $bgSecondColor;
   padding: 0 0 20px 0;
 
-  .footerContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+  .container {
+    @include container();
+    @include flex(column, flex-start, center, wrap);
 
     .socialIcons {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flex(row, space-between, center);
       @media screen and (max-width: 480px) {
         flex-wrap: wrap;
         justify-content: center;
@@ -35,7 +33,9 @@
       }
     }
     .copyright {
-      @include text ($textFontFamily, 14px, 1.4, 300, 1px)
+      @include text ($textFontFamily, 14px, 1.4, 300, 1px);
+      opacity: .5;
+      margin-top: 20px;
     }
   }
 }

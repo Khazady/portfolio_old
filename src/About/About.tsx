@@ -1,15 +1,26 @@
-import React from 'react';
-import classes from './About.module.scss';
-import containerClass from '../common/styles/Container.module.css'
+import React from 'react'
+import classes from './About.module.scss'
 import myPhoto from '../assets/images/myPhoto.jpg'
-import {Title} from "../common/components/Title/Title";
+import {Title} from '../common/components/Title/Title'
 
-function About() {
+const particlesOpt = {
+    'particles': {
+        'number': {
+            'value': 150,
+            'density': {
+                'enable': true,
+                'value_area': 800
+            }
+        }
+    }
+}
+
+export const About: React.FC = () => {
     const photo = {backgroundImage: `url(${myPhoto})`}
     return (
-      <div id='main' className={classes.aboutBlock}>
-          <div className={`${containerClass.container} ${classes.aboutContainer}`}>
-              <Title text={"I am Frontend Developer"}/>
+      <div id='main' className={classes.block}>
+          <div className={classes.container}>
+              <Title text={'I am Frontend Developer'}/>
               <div>
                   <div style={photo} className={classes.photo}/>
                   <div className={classes.text}>
@@ -19,7 +30,5 @@ function About() {
               </div>
           </div>
       </div>
-    );
+    )
 }
-
-export default About;
