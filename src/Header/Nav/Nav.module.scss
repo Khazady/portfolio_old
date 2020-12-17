@@ -17,4 +17,7 @@ html {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
+    &:hover {
+        text-decoration: #20c997 underline dashed;
+    }
 }

@@ -2,7 +2,10 @@
 @import '../../common/styles/sass/mixins.scss';
 
 .skill {
-  width: 250px;
+  width: 350px;
+  @media screen and (max-width: 1024px) {
+    width: 250px;
+  }
   display: flex;
   text-align: center;
   margin: 25px;
@@ -14,6 +17,7 @@
     margin-right: 10px;
   }
   .skillInfo {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     @include text($textFontFamily, 14px, 1.2, 300, 1px);

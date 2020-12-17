@@ -5,7 +5,7 @@ import {About} from './About/About'
 import {Skills} from './Skills/Skills'
 import {Projects} from './Projects/Projects'
 import {Hire} from './Hire/Hire'
-import {Contacts} from './Contacts/Contacts'
+import {ContactMe} from './ContactMe/ContactMe'
 import {Footer} from './Footer/Footer'
 
 //todo: remove height from all wrappers
@@ -16,7 +16,7 @@ const App: React.FC = () => (
       <Skills/>
       <Projects/>
       <Hire/>
-      <Contacts/>
+      <ContactMe/>
       <Footer/>
   </div>
 )

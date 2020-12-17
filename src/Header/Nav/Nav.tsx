@@ -6,6 +6,6 @@ export const Nav: React.FC = () => (
       <a className={classes.links} href="#about">Main</a>
       <a className={classes.links} href="#skills">Skills</a>
       <a className={classes.links} href="#projects">Projects</a>
-      <a className={classes.links} href="#contacts">Contacts</a>
+      <a className={classes.links} href="#contactMe">Contact Me</a>
   </div>
 )
