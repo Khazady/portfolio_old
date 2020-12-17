@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-incubator/static/css/main.3649a6c6.chunk.css",
-    "main.js": "/portfolio-incubator/static/js/main.ee99b835.chunk.js",
-    "main.js.map": "/portfolio-incubator/static/js/main.ee99b835.chunk.js.map",
+    "main.css": "/portfolio-incubator/static/css/main.a929d1f0.chunk.css",
+    "main.js": "/portfolio-incubator/static/js/main.d0656b93.chunk.js",
+    "main.js.map": "/portfolio-incubator/static/js/main.d0656b93.chunk.js.map",
     "runtime-main.js": "/portfolio-incubator/static/js/runtime-main.62a038dc.js",
     "runtime-main.js.map": "/portfolio-incubator/static/js/runtime-main.62a038dc.js.map",
-    "static/js/2.97fb5f2f.chunk.js": "/portfolio-incubator/static/js/2.97fb5f2f.chunk.js",
-    "static/js/2.97fb5f2f.chunk.js.map": "/portfolio-incubator/static/js/2.97fb5f2f.chunk.js.map",
+    "static/js/2.dc5c2f70.chunk.js": "/portfolio-incubator/static/js/2.dc5c2f70.chunk.js",
+    "static/js/2.dc5c2f70.chunk.js.map": "/portfolio-incubator/static/js/2.dc5c2f70.chunk.js.map",
     "index.html": "/portfolio-incubator/index.html",
-    "precache-manifest.9f2e72be7a9f6ea866681d339dbdc23f.js": "/portfolio-incubator/precache-manifest.9f2e72be7a9f6ea866681d339dbdc23f.js",
+    "precache-manifest.ca94929d3fc4f579f160ed232d2a8fa3.js": "/portfolio-incubator/precache-manifest.ca94929d3fc4f579f160ed232d2a8fa3.js",
     "service-worker.js": "/portfolio-incubator/service-worker.js",
-    "static/css/main.3649a6c6.chunk.css.map": "/portfolio-incubator/static/css/main.3649a6c6.chunk.css.map",
-    "static/js/2.97fb5f2f.chunk.js.LICENSE.txt": "/portfolio-incubator/static/js/2.97fb5f2f.chunk.js.LICENSE.txt",
+    "static/css/main.a929d1f0.chunk.css.map": "/portfolio-incubator/static/css/main.a929d1f0.chunk.css.map",
+    "static/js/2.dc5c2f70.chunk.js.LICENSE.txt": "/portfolio-incubator/static/js/2.dc5c2f70.chunk.js.LICENSE.txt",
     "static/media/css-3.svg": "/portfolio-incubator/static/media/css-3.675199ff.svg",
     "static/media/html5.svg": "/portfolio-incubator/static/media/html5.d9a31e27.svg",
     "static/media/icon-email.svg": "/portfolio-incubator/static/media/icon-email.355f3284.svg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62a038dc.js",
-    "static/js/2.97fb5f2f.chunk.js",
-    "static/css/main.3649a6c6.chunk.css",
-    "static/js/main.ee99b835.chunk.js"
+    "static/js/2.dc5c2f70.chunk.js",
+    "static/css/main.a929d1f0.chunk.css",
+    "static/js/main.d0656b93.chunk.js"
   ]
 }
