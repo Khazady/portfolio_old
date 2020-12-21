@@ -6,7 +6,7 @@ import anchorClass from '../common/styles/sass/anchorPosition.module.scss'
 
 export const ContactMe: React.FC = () => (
   <section>
-      <a className={anchorClass.anchorForSkills} id="contactMe"/>
+      <a className={anchorClass.anchor} id="contactMe"/>
       <div className={classes.block}>
           <Fade direction={'down'} triggerOnce>
               <div className={classes.container}>

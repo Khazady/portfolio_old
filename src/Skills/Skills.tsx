@@ -17,7 +17,7 @@ export const Skills: React.FC = () => {
     const react = {backgroundImage: `url(${reactImage})`}
     return (
       <section>
-          <a className={anchorClass.anchorForSkills} id="skills"/>
+          <a className={anchorClass.anchor} id="skills"/>
           <div className={classes.block}>
               <Fade direction={'down'} triggerOnce>
                   <div className={classes.container}>
@@ -26,11 +26,11 @@ export const Skills: React.FC = () => {
                           <Skill style={html} title="HTML5" href='https://htmlacademy.ru/profile/id1338073'
                                  description={'Semantic elements, Open Graph, data attributes, tables, template'}/>
                           <Skill style={css} title="CSS3" href='https://htmlacademy.ru/profile/id1338073'
-                                 description={'SASS & LESS, adaptive design, flex & grid, animations, filters'}/>
+                                 description={'SASS & LESS, mixins, adaptive design, flex & grid, animations, Material UI, Ant Design'}/>
                           <Skill style={js} title="JS" href={'https://github.com/Khazady'}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                                 description={'Event-loop, micro/macro tasks, prototypal inheritance, scope, promise'}/>
                           <Skill style={react} title="React" href={'https://github.com/Khazady'}
-                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                                 description={'Hooks, HOCs, Redux, React-Redux, Router, Thunk, Axios, Formik/Redux-Form'}/>
                       </div>
                   </div>
               </Fade>
