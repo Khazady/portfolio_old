@@ -25,7 +25,7 @@ export const About: React.FC = () => {
     const typingSettings = {strings: ['Front-end', 'Developer'], autoStart: true, loop: true, wrapperClassName: classes.typing }
 
     return (
-      <div id='about' className={classes.block}>
+      <section id='about' className={classes.block}>
           <Fade triggerOnce delay={1500} duration={6000}><Particles className={classes.particles}
                                                                     params={particlesOpt}/></Fade>
           <div className={classes.container}>
@@ -42,6 +42,6 @@ export const About: React.FC = () => {
                   </div>
               </Slide>
           </div>
-      </div>
+      </section>
     )
 }

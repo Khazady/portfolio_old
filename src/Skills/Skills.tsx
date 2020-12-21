@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Skills.module.scss'
+import anchorClass from '../common/styles/sass/anchorPosition.module.scss'
 import {Skill} from './Skill/Skill'
 import {Title} from '../common/components/Title/Title'
 import htmlImage from '../assets/images/html5.svg'
@@ -15,22 +16,25 @@ export const Skills: React.FC = () => {
     const js = {backgroundImage: `url(${jsImage})`}
     const react = {backgroundImage: `url(${reactImage})`}
     return (
-      <section id='skills' className={classes.block}>
-          <Fade direction={'down'} triggerOnce>
-              <div className={classes.container}>
-                  <Title text="Skills"/>
-                  <div className={classes.skills}>
-                      <Skill style={html} title="HTML5" href='https://htmlacademy.ru/profile/id1338073'
-                             description={'Semantic elements, Open Graph, data attributes, tables, template'}/>
-                      <Skill style={css} title="CSS3" href='https://htmlacademy.ru/profile/id1338073'
-                             description={'SASS & LESS, adaptive design, flex & grid, animations, filters'}/>
-                      <Skill style={js} title="JS" href={'https://github.com/Khazady'}
-                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
-                      <Skill style={react} title="React" href={'https://github.com/Khazady'}
-                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+      <section>
+          <a className={anchorClass.anchorForSkills} id="skills"/>
+          <div className={classes.block}>
+              <Fade direction={'down'} triggerOnce>
+                  <div className={classes.container}>
+                      <Title text="Skills"/>
+                      <div className={classes.skills}>
+                          <Skill style={html} title="HTML5" href='https://htmlacademy.ru/profile/id1338073'
+                                 description={'Semantic elements, Open Graph, data attributes, tables, template'}/>
+                          <Skill style={css} title="CSS3" href='https://htmlacademy.ru/profile/id1338073'
+                                 description={'SASS & LESS, adaptive design, flex & grid, animations, filters'}/>
+                          <Skill style={js} title="JS" href={'https://github.com/Khazady'}
+                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                          <Skill style={react} title="React" href={'https://github.com/Khazady'}
+                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
+                      </div>
                   </div>
-              </div>
-          </Fade>
+              </Fade>
+          </div>
       </section>
     )
 }

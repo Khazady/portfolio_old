@@ -8,7 +8,8 @@ export const Hire: React.FC = () => (
       <Fade direction={'down'} triggerOnce>
           <div className={classes.container}>
               <Title text="I'm available for Freelance"/>
-              <a href='#d'>Hire me</a>
+              <a href='https://rabota.by/resume/25f4e112ff08839eb40039ed1f38626f6b4f4d'
+                 target='_blank' rel="noopener noreferrer">Hire me</a>
           </div>
       </Fade>
   </section>

@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 html {
     scroll-behavior: smooth;
@@ -8,16 +9,18 @@ html {
     width: 300px;
     display: flex;
     justify-content: space-between;
-}
 
-.links {
-    text-decoration: none;
-    color: $bgColor;
-    font-family: $textFontFamily;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    &:hover {
-        text-decoration: #20c997 underline dashed;
+    .links {
+        @include text($textFontFamily, 16px, 1, 300, 1px);
+        text-decoration: none;
+        color: $bgColor;
+
+        transition: .3s;
+        &:hover {
+            text-decoration: $primaryColor underline dashed;
+            color: $primaryColor;
+            transform: scale(1.15);
+            transition: .5s;
+        }
     }
 }

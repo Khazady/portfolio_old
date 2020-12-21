@@ -1,0 +1,21 @@
+@import './common/styles/sass/variables';
+
+*::selection {
+    background-color: #20c997;
+    color: #fff
+}
+
+.App {
+   > section {
+        &:nth-child(n) {
+            background-color: $bgSecondColor;
+        }
+      &:nth-child(2n) {
+        background-color: $bgColor;
+      }
+    }
+
+    a {
+        z-index: 1;
+    }
+}

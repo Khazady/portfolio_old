@@ -2,29 +2,37 @@
 @import '../common/styles/sass/mixins';
 
 .block {
-  @include container();
-  @include flex(row, space-between, center, wrap);
+    @include container();
+    @include flex(row, space-between, center, wrap);
 
-  .header {
-    background-color: #fff;
-    width: 100%;
-    height: 100px;
-    @include flex(row, space-around, center);
+    .header {
+        background-color: #fff;
+        width: 100%;
+        height: 120px;
+        @include flex(row, space-around, center);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: .8;
+        z-index: 999;
 
-    @media screen and (max-width: 630px) {
-      flex-direction: column;
-      height: 150px;
+        @media screen and (max-width: 630px) {
+            flex-direction: column;
+            height: 150px;
+        }
+
+        .name {
+            @include text($titleFontFamily, 20px, 1, null, 2px);
+            color: $bgColor;
+            @media screen and (max-width: 400px) {
+                font-size: 18px;
+                margin-left: 10px;
+            }
+
+            .name h2 {
+                margin: 0;
+            }
+        }
     }
-
-    .name {
-      color: $bgColor;
-      font-family: $titleFontFamily;
-      font-size: 20px;
-      letter-spacing: 2px;
-
-      .name h2 {
-        margin: 0;
-      }
-    }
-  }
 }
